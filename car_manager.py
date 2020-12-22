@@ -4,8 +4,9 @@ COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 INCREASE_PER_SCORE = 2
+NUMBER_OF_CARS = 20
 
-STARTING_POSITIONS = [(randint(-280,280),randint(-250,260)) for _ in range(20)]
+STARTING_POSITIONS = [(randint(-280,280),randint(-250,260)) for _ in range(NUMBER_OF_CARS)]
 
 
 class CarManager(Turtle):
